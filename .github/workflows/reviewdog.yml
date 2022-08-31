@@ -3,7 +3,7 @@ on: [pull_request]
 jobs:
   eslint:
     name: runner / eslint
-    runs-on: ubuntu-latest
+    runs-on: windows
     steps:
       - uses: actions/checkout@v2
       - uses: reviewdog/action-eslint@v1
